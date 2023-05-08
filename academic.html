@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	
+<!-- css link -->
+<link rel="stylesheet" href="css/major.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--  -->
+	<!-- bootstrap links -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<!-- end -->
+		<!-- bootstrap icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+		<!-- end -->
+		
+		<!-- fontawesome link -->
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <!-- end -->
+<!-- table link -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
+		<!-- end -->
+        <!-- javasrip -->
+        <script defer src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script defer src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+        <script defer src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+        <!-- end -->
+		<!-- adding jquery -->
+		<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+		<!--  --> 
+</head>
+<body>
+  <div class="spinner-wrapper">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+      </div>
+  </div> 
+
+<div id="page">
+<nav class="fh5co-nav" role="navigation">
+  <div class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-right">
+          <p class="site" style="border-left:1px solid grey; border-right:1px solid grey;">tenwekboarding@yahoo.com</p>
+          <p class="num" >Call: +254712345678</p>
+          <ul class="social">
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/dr-charles-kurgatt-612679118"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- ====== -->
+<nav class="navbar navbar-expand-md">
+  <a href="index.html" class="navbar-brand text-uppercase text-success fs-4 ms-5">Tenwek</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+    <span class="navbar-toggler-icon"><i class="bi bi-list fs-4"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="btn">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link mx-3 fs-5 text-success">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="courses.html" class="nav-link mx-3 fs-5 text-success">Subject</a>
+      </li>
+      <li class="nav-item">
+        <a href="teacher.html" class="nav-link mx-3 fs-5 text-success">Teacher</a>
+      </li>
+      <li class="nav-item">
+        <a href="about.html" class="nav-link mx-3 fs-5 text-success">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="contact.html" class="nav-link mx-3 fs-5 text-success">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a href="login.html" class="nav-link mx-3 fs-5 text-success">Enroll Here</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<hr>
+<!-- kcse trends -->
+<div class="container">
+    <div class="row">
+       <h1 class="text-center text-primary">&ldquo;What is the good meaning of teacher?&ldquo;</h1>
+       <h2 class="text-center text-dark">List of Previous HeadTeachers and B.O.M members</h2>
+       <hr>
+        <section class="section1 section-work-data mb-5">
+			<div class="container mb-5">
+				<div class="row justify-content-center mb-5">
+				<div class="col-sm-6 col-xs-12 col-lg-3 col-md-6 justify-content-center mt-4 mb-2">
+					<div class="card justify-content-center" style="width: 18rem;margin: auto;">
+						<img src="images/person.png" class="card-img-top rounded-circle" alt="Paul Jarret">
+						<div class="card-body text-center text-light">
+						<h3 class="text-warning">Jackline Kendi</h3>
+						<p class="text-dark"><span><small style="color:red">Head Teacher since 1990</small></span></p>
+					  <p class="card-text text-dark">&ldquo;What is the good meaning of teacher?
+						A good teacher is one who is able to explain and demonstrate concepts ...&rdquo;.</p>
+					 
+					  <a href="#"><div class="btn btn-info text-danger">Read More</div></a> 
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12 col-lg-3 col-md-6 justify-content-center mt-4 mb-2">
+					<div class="card justify-content-center" style="width: 18rem;margin: auto;">
+						<img src="images/person.png" class="card-img-top rounded-circle" alt="Paul Jarret">
+						<div class="card-body text-center text-light">
+						<h3 class="text-warning">Christine Shalon rop</h3>
+						<p class="text-dark"><span><small style="color: red;">  Principle 2000</small></span></p>
+					  <p class="card-text text-dark">&ldquo;What is the good meaning of teacher?
+						A good teacher is one who is able to explain and demonstrate concepts ...&rdquo;.</p>
+					 
+					  <a href="#"><div class="btn btn-info text-danger">Read More</div></a> 
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12 col-lg-3 col-md-6 justify-content-center mt-4 mb-2">
+					<div class="card justify-content-center" style="width: 18rem;margin: auto;">
+						<img src="images/person.png" class="card-img-top rounded-circle" alt="Paul Jarret">
+						<div class="card-body text-center text-light">
+						<h3 class="text-warning">Samuel Ruto</h3>
+						<p class="text-dark"><span><small style="color: red;">Head Teacher since 2010</small></span></p>
+					  <p class="card-text text-dark">&ldquo;What is the good meaning of teacher?
+						A good teacher is one who is able to explain and demonstrate concepts ...&rdquo;.</p>
+					 
+					  <a href="#"><div class="btn btn-info text-danger">Read More</div></a> 
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-xs-12 col-lg-3 col-md-6 justify-content-center mt-4 mb-2">
+					<div class="card justify-content-center" style="width: 18rem;margin: auto;">
+						<img src="images/person.png" class="card-img-top rounded-circle" alt="Paul Jarret">
+						<div class="card-body text-center text-light">
+						<h3 class="text-warning">Kelvin Korir</h3>
+						<p class="text-dark"><span><small style="color: red;"">B.O.M</small></span></p>
+					  <p class="card-text text-dark">&ldquo;What is the good meaning of teacher?
+						A good teacher is one who is able to explain and demonstrate concepts ...&rdquo;.</p>
+					 
+					  <a href="#"><div class="btn btn-info text-danger">Read More</div></a> 
+					</div>
+					</div>
+				</div>
+				 </div>	
+			</div>
+		</div>
+		</section>
+    </div>
+</div>
+<h1 class="text-center text-dark"><span class="text-danger" style="border-bottom: 2px solid black;">Tenwek</span> Performance for the last <span  class="text-danger">5 Academic years</span></h1>
+<h2 class="text-secondary text-center">Best Performance of our students<br><span class="text-danger text-center" style="font-weight: 900;">Joining Different National Schools</span></h2>
+<hr>
+<!--  -->
+<!-- table== -->
+<div class="container">
+    <div class="row mt-2">
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<h4 class="text-danger text-center">
+				Mean Score  of our school
+			</h4>
+			<table  class="table table-striped table-success table-hover">
+				<thead>
+				  <tr>
+					<th scope="col"></th>
+					<th scope="col">Year</th>
+					<th scope="col">Maths</th>
+					<th scope="col">English</th>
+					<th scope="col">Kiswahili</th>
+					<th scope="col">Science</th>
+					<th scope="col">SST/CRE</th>
+					<th scope="col">Averange</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<th scope="row">1</th>
+					<td class="text-danger">2022</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">2</th>
+					<td class="text-danger">2021</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">3</th>
+					<td class="text-danger">2020</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">4</th>
+					<td class="text-danger">2019</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">5</th>
+					<td class="text-danger">2018</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">4</th>
+					<td class="text-danger">2017</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">5</th>
+					<td class="text-danger">2016</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">6</th>
+					<td class="text-danger">2015</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">7</th>
+					<td class="text-danger">2014</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">8</th>
+					<td class="text-danger">2013</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				  <tr>
+					<th scope="row">9</th>
+					<td class="text-danger">2012</td>
+					<td>75</td>
+					<td>80</td>
+					<td>70</td>
+					<td>75</td>
+					<td>80</td>
+					<strong><td class="text-info">76</td></strong>
+				  </tr>
+				</tbody>				
+			  </table >
+			
+			  <div class="row text-center">
+				<p class="text-dark mt-5">
+					The above table depic a summary of how our school have been trending up-to-date <span class="text-success">Click the below button to access how individual stundets are performing</span>
+				</p>
+				<a href="academic.html" class="text-center m-auto"><div class="btn btn-danger text-light">Readmore</div></a>
+			  </div>		
+		</div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <h4 class="text-danger text-center">
+            Best students and National School To Join
+        </h4>
+        <table id="example" class="table table-striped table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Year</th>
+                <th scope="col">Gender</th>
+                <th scope="col">National Schools</th>
+                <th scope="col">Extra County Schools</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>2022 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>2022</td>
+                <td>Boys</td>
+                <td>60</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>2021 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>2021</td>
+                <td>Boys</td>
+                <td>70</td>
+                <td>20</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>2020 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>2020</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td>2019 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>2019</td>
+                <td>Boys</td>
+                <td>80</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td>2018 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td>2018</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td>2017 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>2017</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">13</th>
+                <td>2016 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">14</th>
+                <td>2016</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td>2015 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">16</th>
+                <td>2015</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">17</th>
+                <td>2014 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">18</th>
+                <td>2014</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">19</th>
+                <td>2013 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">20</th>
+                <td>2013</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">21</th>
+                <td>2012 </td>
+                <td>Girls</td>
+                <td>50</td>
+                <td>40</td>
+            
+              </tr>
+              <tr>
+                <th scope="row">22</th>
+                <td>2012</td>
+                <td>Boys</td>
+                <td>50</td>
+                <td>40</td>
+                
+              </tr>
+             
+            </tbody>
+          </table>
+          <hr>
+</div>
+<!-- end -->
+
+<!-- footer -->
+<footer id="fh5co-footer" role="contentinfo" style="background-color: green;" class="mt-5">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row row-pb-md mt-5 text-light">
+            <div class="col-md-3 fh5co-widget mt-5 mb-3 text-light">
+                <h3 class="text-light text-center">Motto</h3>
+                <p class="text-center">Education for a bright future</p>
+            </div>
+            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget mt-5 mb-3 text-light" style="margin-right: 150px;">
+                <h3 class="text-light text-center">Mission</h3>
+                
+                <p class="text-center">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget mt-5 mb-3" style="margin-right: 100px;">
+                <h3 class="text-light text-center">Vision</h3>
+                <p class="text-center">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            </div>
+
+            <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget mb-3 mt-5">
+                <h3 class="text-light text-center">Engage us</h3>
+                <ul class="fh5co-footer-links">
+                    <li><a href="#" style="color: grey;" class="text-center">tenwekboarding@yahoo.com</a></li>
+                    <br>
+                    <li style="text-decoration: none;"><a href="#" style="color: grey;" >+254712345678 || +254701234567</a></li>
+                    <br>
+                    <li class="address" ><a style="color: grey;"  target="_blank" href="https://www.google.com/search?client=ubuntu-sn&hs=mWt&channel=fs&tbs=lf:1,lf_ui:2&tbm=lcl&q=Tenwek+boarding+location&rflfq=1&num=10&ved=2ahUKEwjIyqjTjoH-AhV1xgIHHXO5CAkQtgN6BAgOEAc#">Along Bomet|Silibwet Road</a> </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row copyright">
+            <div class="col-md-12 text-center">
+                <p>
+                    <small class="block text-light">&copy; 2023 All Rights Reserved.</small> 
+                    <br><small class="block text-light">Designed by Austin Axwell Co.</a></small>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+</div>
+
+<a href="#" class="to-top ">
+    <i class="bi bi-arrow-up-circle-fill text-danger"></i>
+</a>
+
+
+    <!-- script goes here -->
+	<script  src="script.js"></script>
+	<!--  -->
+</body>
+</html>
